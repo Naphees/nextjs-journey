@@ -1,0 +1,17 @@
+
+import "./globals.css";
+import  Navbar from "@/components/Navbar.js";
+
+
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      
+      <body >
+        <Navbar></Navbar>
+        {children}
+        </body>
+    </html>
+  );
+}
