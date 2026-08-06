@@ -15,6 +15,9 @@ export default function Navbar(){
             <Link href="/user/Naphees_Mern_Developer">
                  User
             </Link>
+            <Link href="/day3">
+                Day 3
+            </Link>
         </nav>
 
     );
